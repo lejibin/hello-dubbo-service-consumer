@@ -1,9 +1,9 @@
 package com.binhow.hello.dubbo.service.consumer;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableAutoConfiguration
+@SpringBootApplication
 public class HelloDubboServiceConsumerApplication {
 
     public static void main(String[] args) {
