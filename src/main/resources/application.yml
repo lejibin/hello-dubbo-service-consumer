@@ -4,8 +4,8 @@ spring:
 server:
   port: 8080
 nacos:
-  host: 192.168.188.100
-  port: 8848
+  host: nacos.cnheri.com
+  port: 80
   username: nacos
   password: Ljb314159265
 dubbo:
