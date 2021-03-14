@@ -2,7 +2,7 @@ nacos:
   config:
     bootstrap:
       enable: true
-    server-addr: 192.168.188.100:8849
+    server-addr: nacos.cnheri.com
     data-id: service-consumer
     group: hello-dubbo
     namespace: dev
@@ -10,4 +10,3 @@ nacos:
     auto-refresh: true
     config-retry-time: 2333
     config-long-poll-timeout: 46000
-

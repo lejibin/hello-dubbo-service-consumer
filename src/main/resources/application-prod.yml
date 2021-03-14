@@ -2,7 +2,7 @@ nacos:
   config:
     bootstrap:
       enable: true
-    server-addr: nacos.binhow.com
+    server-addr: nacos.cnheri.com
     data-id: service-consumer
     group: hello-dubbo
     namespace: prod
