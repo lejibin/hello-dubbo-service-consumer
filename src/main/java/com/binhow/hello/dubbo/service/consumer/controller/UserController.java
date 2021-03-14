@@ -18,17 +18,16 @@ public class UserController {
     public String hi1(String name) {
         return "Hello" + name;
     }
+
     @ResponseBody
     @RequestMapping(value = "getUserById", method = RequestMethod.GET)
     public User getUserById(int userId) {
-        System.out.print("getUserById");
         return userService.getUserById(userId);
     }
 
     @ResponseBody
     @RequestMapping(value = "getUserByName", method = RequestMethod.GET)
     public User getUserByName(String userName) {
-        System.out.print("getUserByName");
         return userService.getUserByName(userName);
     }
 }

@@ -1,0 +1,13 @@
+nacos:
+  config:
+    bootstrap:
+      enable: true
+    server-addr: 192.168.188.100:8849
+    data-id: service-consumer
+    group: hello-dubbo
+    namespace: dev
+    type: yaml
+    auto-refresh: true
+    config-retry-time: 2333
+    config-long-poll-timeout: 46000
+
